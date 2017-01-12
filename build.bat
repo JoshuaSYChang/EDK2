@@ -1,1 +1,2 @@
+cd BaseTools
 build all
