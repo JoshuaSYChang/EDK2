@@ -50,7 +50,6 @@ UefiMain (
   	  // Use UefiLib Print API to print string to UEFI console
   	  //
     	Print ((CHAR16*)PcdGetPtr (PcdHelloWorldPrintString));
-    	Print ((CHAR16*)PcdGetPtr (PcdHelloWorldPrintString));
     }
   }
 
