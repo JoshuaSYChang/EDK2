@@ -51,7 +51,8 @@ UefiMain (
   	  //
     	Print ((CHAR16*)PcdGetPtr (PcdHelloWorldPrintString));
     	Print ((CHAR16*)PcdGetPtr (PcdHelloWorldPrintString));
-    }
+    	Print ((CHAR16*)PcdGetPtr (PcdHelloWorldPrintString));
+  	}
   }
 
   return EFI_SUCCESS;
